@@ -6,6 +6,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -27,6 +28,15 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {   
+      resolve: `gatsby-source-filesystem`, // gets the local or remote file to the page 
+      options: 
+      {        
+        path: `${__dirname}/src/pages`,       
+        name: 'pages',      
+      },
+    },
+    `gatsby-transformer-remark`, // transforms blog posts written in makdown files on the local dik into HTML for rendering
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
