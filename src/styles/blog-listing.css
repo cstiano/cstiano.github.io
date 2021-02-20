@@ -8,6 +8,7 @@ div.blog-post-preview {
 h1 > * {
     font-size: 1.2rem;
     text-decoration-line: none;
+    color: black;
 }
 
 h2 {

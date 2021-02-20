@@ -12,7 +12,10 @@ import Media from 'react-media'
 
 import Header from "./header"
 import Sidebar from "./sidebar"
+// import "./layout.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./layout.css"
+import '../styles/blog-listing.css'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -92,12 +95,12 @@ const Layout = ({ children }) => {
                   <div style={{ flex: 2.5, paddingRight: "30px" }}>                
                     {children}              
                   </div>
-                  <div style={{ flex: 1 }}>                
-                    <Sidebar                  
+                  {/* <div style={{ flex: 1 }}>                 */}
+                    {/* <Sidebar                  
                       title="Codestack"                  
                       description="Articles on React and Node.js. All articles are written by Me. Fullstack Web Development."/>                
-                    <Sidebar title="About author" description="I am a Full-stack Web Developer specializing in React and Node.js based in Nigeria."                />              
-                  </div>            
+                    <Sidebar title="About author" description="I am a Full-stack Web Developer specializing in React and Node.js based in Nigeria."                />               */}
+                  {/* </div>             */}
                 </div> 
                 )        
               } 
