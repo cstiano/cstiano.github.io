@@ -12,7 +12,6 @@ import Media from 'react-media'
 
 import Header from "./header"
 import Sidebar from "./sidebar"
-// import "./layout.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./layout.css"
 import '../styles/blog-listing.css'
