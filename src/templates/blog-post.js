@@ -2,8 +2,6 @@ import { graphql } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
 import Layout from "../components/layout"
-import '../styles/blog-post-override.css'
-// import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader'
 
 export default function Template({data}) {
     const post = data.markdownRemark;
@@ -18,8 +16,6 @@ export default function Template({data}) {
                 <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html }} />
             </div>
         </div>
-        {/* <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script> */}
-        {/* <script src="js/syntax.min.js"></script> */}
         </Layout>
     );
 }
