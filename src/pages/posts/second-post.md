@@ -103,13 +103,16 @@ Indented code
 
 Block code "fences"
 
-```
-Sample text here...
+``` java
+public static void main () {
+  
+}
 ```
 
 Syntax highlighting
 
 ``` js
+// comment
 var foo = function (bar) {
   return bar++;
 };

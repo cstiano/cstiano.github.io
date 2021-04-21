@@ -6,8 +6,13 @@ import { Container, Navbar, Nav } from "react-bootstrap"
 import { Link } from "gatsby"
 import Logo from "./logo"
 
+
 const Header = ({ siteTitle }) => (
   <header>
+    {/* <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css"
+/> */}
     <Container>
       <Navbar expand="md">
         <Navbar.Brand href="/" style={{fontFamily: `Andale Mono`, fontWeight: `bold`}}>

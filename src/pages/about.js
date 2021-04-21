@@ -8,7 +8,7 @@ import { SocialIcon } from "react-social-icons"
 
 const About = () => (
   <Layout>
-    <SEO title="UiraCode" />
+    <SEO title="UiraCode | About" />
     <div style={{ maxWidth: `180px`, marginBottom: `1.45rem`, marginLeft: `auto`, marginRight: `auto`}}>
       <Image />
     </div>

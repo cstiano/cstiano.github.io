@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: ``,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
@@ -36,9 +36,26 @@ module.exports = {
         name: 'pages',      
       },
     },
-    `gatsby-transformer-remark`, // transforms blog posts written in makdown files on the local dik into HTML for rendering
+    {
+    resolve: `gatsby-transformer-remark`, // transforms blog posts written in makdown files on the local dik into HTML for rendering
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+      options: {
+        plugins: [
+          {
+            // resolve: `gatsby-remark-highlight-code`,
+            // options: {
+            //   terminal: 'carbon',
+            //   theme: 'vscode'
+            // }
+            resolve: `gatsby-remark-vscode`,
+            options: {
+              // theme: 'Solarized Dark' 
+            }
+          },
+        ],
+      },
+    },
   ],
 }

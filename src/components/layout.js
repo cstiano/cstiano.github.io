@@ -15,8 +15,10 @@ import Sidebar from "./sidebar"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./layout.css"
 import '../styles/blog-listing.css'
+// import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
 
 const Layout = ({ children }) => {
+  // deckDeckGoHighlightElement();
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {

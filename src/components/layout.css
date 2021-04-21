@@ -10,8 +10,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: 'Open Sans', Helvetica, sans-serif;
-  font-weight: 300;
+  font-family: "DM Sans",-apple-system,BlinkMacSystemFont,"Helvetica Neue","Roboto",Roboto,Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -610,4 +610,8 @@ pre tt:after {
 ::selection {
   color: rgb(255, 255, 255);
   background: rgb(0, 0, 0);
+}
+
+span {
+  background: none;
 }

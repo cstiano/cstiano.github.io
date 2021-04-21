@@ -7,6 +7,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import '../styles/blog-listing.css'
 
+
 // const IndexPage = () => (
 //   <Layout>
 //     <SEO title="Home" />
@@ -28,7 +29,7 @@ export default function Index({data}) {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="UiraCode" />
       <div className="blog-posts">
         { posts
             .filter(post => post.node.frontmatter.title.length > 0)
