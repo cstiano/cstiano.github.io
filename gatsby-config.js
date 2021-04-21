@@ -37,22 +37,12 @@ module.exports = {
       },
     },
     {
-    resolve: `gatsby-transformer-remark`, // transforms blog posts written in makdown files on the local dik into HTML for rendering
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+      resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
           {
-            // resolve: `gatsby-remark-highlight-code`,
-            // options: {
-            //   terminal: 'carbon',
-            //   theme: 'vscode'
-            // }
             resolve: `gatsby-remark-vscode`,
-            options: {
-              // theme: 'Solarized Dark' 
-            }
+            options: {}
           },
         ],
       },
