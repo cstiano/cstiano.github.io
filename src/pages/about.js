@@ -15,7 +15,7 @@ const About = () => (
     <div style={{textAlign: `center`}}>
       <h1>Hello! I'm Cris.</h1>
       <div style={{fontFamily: `Andale Mono`}}>
-        <p>I work as a software engineer for <a style={{color: "gray"}} href="https://www.incognia.com/">Incognia</a>. B.S Computer Engineer by Federal University of Pernambuco. Passionate for build and learn new things. When I'm not working I like to read, drawing, listen to music (always), and spend some time on side projects (and I have a cat).</p>
+        <p>I work as a software engineer for <a style={{color: "gray"}} href="https://www.incognia.com/">Incognia</a>. B.S Computer Engineer by Universidade Federal de Pernambuco (UFPE), and I'm member of the RoboôCIn - Robotics Research Group from UFPE. I'm passionate for build, learn new things and when I'm not working I like to read, drawing, listen to music (always), and spend some time on side projects (and I have a cat).</p>
         <p>UiraCode (Uira = <a style={{color: "gray"}} href="https://en.wikipedia.org/wiki/Musician_wren">Uirapuru</a>) is a space where I document my process of explore new things (my study notes), mostly related to coding/technology but also to other subjects of my interest.</p>
       </div>
       <SocialIcon network="github" url="https://github.com/cstiano" bgColor="black" style={{margin: `5px`}}/>
