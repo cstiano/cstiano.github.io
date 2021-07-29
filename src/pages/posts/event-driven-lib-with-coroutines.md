@@ -99,7 +99,7 @@ abstract class InitProvider : ContentProvider() {
 }
 ```
 
-The init module attaches the *ChannelsManager* to the application lifecycle. The ProcessLifycycleOwner was used to make this attachment, which dispatches specific triggers to an observer module regarding lifecycle steps (e.g: ON_START). If you want a more profound understanding of ProcessLifecycleOwner, take a look at the documentation [here](https://developer.android.com/reference/android/arch/lifecycle/ProcessLifecycleOwner). Foreground cycles are mandatory in this first version, so ProcessLifecycleOwner fits well with the purpose because SpineStream just needs to know when the application enters the OnStop state to refresh the in-used channels.
+The init module attaches the *ChannelsManager* to the application lifecycle. The ProcessLifycycleOwner was used to make this binding, which dispatches specific triggers to an observer module regarding lifecycle steps (e.g: ON_START). If you want a more profound understanding of ProcessLifecycleOwner, take a look at the documentation [here](https://developer.android.com/reference/android/arch/lifecycle/ProcessLifecycleOwner). Foreground cycle is mandatory in this first version, so ProcessLifecycleOwner fits well with the purpose because SpineStream just needs to know when the application enters the OnStop state to refresh the in-used channels.
 
 ``` java
 class SpineStreamInitProvider : InitProvider() {
