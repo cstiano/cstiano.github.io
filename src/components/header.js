@@ -11,7 +11,8 @@ const Header = ({ siteTitle }) => (
     <Container>
       <Navbar expand="md">
         <Navbar.Brand href="/" style={{fontFamily: `Andale Mono`, fontWeight: `bold`}}>
-          <Logo />
+          {/* <Logo /> */}
+          <img src="https://raw.githubusercontent.com/cstiano/cstiano.github.io/source/src/images/uiracode_logo.png" style={{maxWidth:`60px`, marginBottom:`5px`}}/>
           <div>
           UiraCode
           </div>

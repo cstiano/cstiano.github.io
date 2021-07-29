@@ -10,7 +10,8 @@ const About = () => (
   <Layout>
     <SEO title="UiraCode | About" />
     <div style={{ maxWidth: `180px`, marginBottom: `1.45rem`, marginLeft: `auto`, marginRight: `auto`}}>
-      <Image />
+      {/* <Image /> */}
+      <img src="https://raw.githubusercontent.com/cstiano/cstiano.github.io/source/src/images/profile-image.JPG" style={{marginBottom:`5px`, borderRadius:`50%`}}/>
     </div>
     <div style={{textAlign: `center`}}>
       <h1>Hello! I'm Cris.</h1>
