@@ -180,7 +180,7 @@ open class Handler : Publisher, Subscriber {
 }
 ```
 
-And that's pretty much it, the purpose here was to implement an event-driven lib as simple as possible to play with coroutines, as an extra I can evolve this project by increasing other features, or integrate it in another project that fits with these requisites. This project has an overhead implementation by including an init module with the content provider, but it's something that I wanted to test. There are others types of event-driven similar implementations for android (or using a publish-subscribe logic, e.g: LiveData), and there is pro and cons of using this logic, but this discussion isn't in the scope here. You can look at the SpineStream source code [here](https://www.github.com/cstiano/spine-stream).
+And that's pretty much it, the purpose here was to implement an event-driven lib as simple as possible to play with coroutines, as an extra I can evolve this project by increasing other features, or integrate it in another project that fits with these requisites. This project has an overhead implementation by including an init module with the content provider, but it's something that I wanted to test. There are others types of event-driven implementations for android (or using a publish-subscribe logic, e.g: LiveData), and there are pros and cons of using it, but this discussion isn't in the scope here. You can look at the SpineStream source code [here](https://www.github.com/cstiano/spine-stream).
 
 ---
 
